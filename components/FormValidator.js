@@ -63,12 +63,15 @@ class FormValidator {
 
   enableValidation() {
     this._formElement.addEventListener("submit", (evt) => {
+      this.resetValidation();
       evt.preventDefault();
     });
     this._setEventListeners();
   }
 
   resetValidation() {
+    this._formElement.reset();
+
     this._inputList.forEach((inputElement) => {
       this._hideInputError(inputElement);
     });

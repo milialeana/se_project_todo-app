@@ -33,7 +33,7 @@ class Todo {
         day: "numeric",
       })}`;
     } else {
-      todoDateEl.textContent = "No due date";
+      todoDateEl.textContent = "";
     }
   }
 
