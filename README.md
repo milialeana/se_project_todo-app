@@ -35,4 +35,4 @@ The todo.js allows the user to pick a due date if they choose too. Also allows f
 
 This project is deployed on GitHub Pages:
 
-- ADD LINK HERE
+- [GitHub Link](https://milialeana.github.io/se_project_todo-app/)
